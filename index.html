@@ -1,14 +1,127 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
+ <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Техномарт</title>
-  </head>
-  <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
-    <h2>test</h2>
-    <h3>test2</h3>
-
-  </body>
+	<!-- <link rel="stylesheet" href="css/style.css" type="text/css"> -->
+    <title>Техномарт</title>
+ </head>
+ <body>
+ 	<!-- -------------------------------------------Шапка страницы------------------------------------------- -->
+ 	<header class="main-header">
+ 		<div class="main-navigation">
+ 			<div class="logo"> 				
+ 				<a href="" class="logo-link"><img class="logo-img" src="img/logo.png"></a>		
+ 			</div>
+ 			<div class="search">
+                <input type="search" name="search"><label><img class="icon-search"></img>Поиск</label>
+            </div>
+ 			<div class="customer-menu">
+                    <div class="bookmark">
+                        <a href="">
+                            <img class="icon-bookmark" src="http://placehold.it/14x16">
+                            Закладки: 0
+                        </a>
+                    </div>
+                    <div class="cart">
+                        <a href="">
+                            <img class="icon-cart" src="http://placehold.it/15x15"> 				
+                            Корзина: 0
+                        </a>
+                    </div>
+                    <a class="btn-order" href="">Оформить заказ</a>				 							
+ 			</div>
+ 		</div>
+ 		
+ 		<div class="header-information">
+ 			<p class="text-information">Интернет-магазин строительных материалов и инструментов для ремонта</p>
+ 			<div class="phone"> 				
+ 				<a href="tel: +78125550555" class="phone-call"><img src="http://placehold.it/19x19" class="icon-phone">+7 (812) 555-05-55</a>
+ 				<p class="address-header">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+ 			</div>
+ 			<div class="user-login">
+				<a href="" class="login"><img src="http://placehold.it/20x17" class="icon-login">Войти</a>
+				<a class="registration"><a href=""><img src="http://placehold.it/20x17" class="icon-login">Регистрация</a>
+ 			</div> 			
+		</div>
+		<!-- Меню -->
+ 		<nav class="header-menu">
+                    <ul class="header-menu-list">
+                        <li><a href="">Главная</a></li>
+                        <li><a href="">Компания</a></li>
+                        <li><a href="catalog.html">Каталог</a></li>
+                        <li><a href="">Новости</a></li>
+                        <li><a href="">Спецпредложения</a></li>
+                        <li><a href="">Доставка</a></li>
+                        <li><a href="">Контакты</a></li>
+                    </ul>
+                </nav>
+ 	</header>
+ 	<!-- ---------------------------------------------Основная часть--------------------------------------------- -->
+	<main>					
+		<div class="about">
+			
+			<h2 class="company-name">Компания &laquo;Техномарт&raquo;</h2>
+			
+			<p class="company-slogan">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и
+			строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
+			
+				
+				<p class="delivery-slogan">Мы можем доставить ваш товар в самые отдаленные точки России!
+				Техномарт работает со многими транспортными компаниями:</p>
+				
+				<ul>
+					<li class="ds-line">Деловые линии</li>
+					<li class="ds-autotrade">Автотрейдинг</li>
+					<li class="ds-expedition">ЖелДорЭкспедиция</li>
+				</ul>
+		</div>
+		<a class="company-button" href="">подробнее о компании</a>
+		<div class="contacts-map">
+			<h2 class="contacts">Контакты</h2>
+			<p class="contacts-info">Вы можете забрать товар сами,заехав в наш офис:</p>
+			<div>
+				<iframe src="https://yandex.ru/map-widget/v1/-/CCfQy4IX" width="300" height="158" frameborder="1" allowfullscreen="true"></iframe>
+			</div>
+			<a class="btn-maps" href="">Заблудились? Напишите нам!</a>			
+		</div>
+	</main>
+		<!-- -------------------------------------------------Подвал------------------------------------------------- -->
+	<footer>
+		<nav class="footer-nav">
+			<div class="logo"> 				
+ 				<a href="" class="logo-link"><img class="logo-img" src="img/logo.png"></a>		
+ 			</div>
+ 			<ul class="footer-menu-top">
+				<li><a href="#">Компания</a></li>
+				<li><a href="#">Новости</a></li>
+				<li><a href="catalog.html">Каталог</a></li>
+				<li><a href="#">Доставка</a></li>
+				<li><a href="#">Контакты</a></li>
+ 			</ul>
+ 			<p class="">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+				+7 (812) 555-05-55</p>
+			<ul class="footer-menu-bottom">				
+				<li><a href="#">Материалы</a></li>
+				<li><a href="#">Техника</a></li>
+				<li><a href="#">Инструмент</a></li>
+				<li><a href="#">Спецпредложения</a></li>
+			</ul>
+			<div class="footer-social">
+                <div class="vk-btn"><a href="#"><img src="http://placehold.it/42x42">VK</a></div>
+                <div class="fb-btn"><a href="#"><img src="http://placehold.it/42x42">FB</a></div>
+                <div class="inst-btn"><a href="#"><img src="http://placehold.it/42x42">INST</a></div>
+			</div>
+            <div class="footer-info-site">
+                <div class="footer-info-site-1">
+                    <h2>Обратная связь:</h2>
+                    <a href="">info@technomart.ru</a>
+                </div>
+                <div class="footer-info-site-2">
+                    <h2>Разработано —</h2>
+                    <a href="https://htmlacademy.ru/">htmlacademy.ru</a>
+                </div>
+            </div>
+		</nav>
+	</footer>
+ </body>
 </html>

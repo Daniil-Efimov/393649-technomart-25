@@ -1,0 +1,104 @@
+/*Шапка*/
+.main-header {
+  	width: 1200px;
+  	height: 320px;
+  	background-color: #f4f7f9;
+}
+
+.main-navigation {
+ 	width: 1200px;
+  	height: 42px;
+  	background-color: #293449;
+}
+
+.logo {
+	width: 220px;
+  	height: 47px;
+  	box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24); 
+  	background-color: #ee3643;
+    text-align: center;
+}
+
+.logo-img {
+
+}
+
+.search {
+  	width: 41px;
+  	height: 12px;
+  	font-family: Cuprum;
+  	font-size: 17px;
+  	line-height: 1.06;
+  	text-align: left;
+  	color: black;
+}
+
+.icon-search {
+	width: 17px;
+  	height: 17px;  
+  	background-color: white;
+}
+
+.icon-bookmark {
+  	width: 14px;
+  	height: 16px;
+  	opacity: 0.3;
+  	background-color: #ffffff;
+}
+
+.icon-cart {
+  	width: 15px;
+  	height: 15px;
+  	opacity: 0.3;
+  	background-color: #ffffff;
+}
+
+.nav-list {
+	
+}
+
+.btn-order {
+  	width: 150px;
+  	height: 42px;
+  	background-color: #63a63e;
+}
+
+.make-order-text {
+	width: 108px;
+  	height: 15px;
+  	font-family: Cuprum;
+  	font-size: 17px;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: 1.06;  
+  	text-align: left;
+  	color: white;
+}
+
+.phone {
+  	width: 270px;
+  	height: 45px;
+  	border: solid 3px #ffffff;
+}
+
+.icon-phone {
+  	width: 19px;
+  	height: 19px;
+}
+
+.icon-login {
+	width: 20px;
+	height: 17px;
+	background-color: #c5c5c5;
+}
+
+/*Основная часть*/
+
+
+
+
+
+
+/*Подвал*/
+
